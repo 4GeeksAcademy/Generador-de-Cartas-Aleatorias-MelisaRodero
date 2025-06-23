@@ -1,5 +1,50 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
+body {
+  background-color: green;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  margin: 50px auto;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-left, .bottom-right {
+  position: absolute;
+  font-size: 2rem;
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+.card-value {
+  font-size: 6rem;
+  color: black;
+}
+
+.heart .suit,
+.diamond .suit {
+  color: red;
+}
+
+.spade .suit,
+.club .suit {
+  color: black;
+}
+

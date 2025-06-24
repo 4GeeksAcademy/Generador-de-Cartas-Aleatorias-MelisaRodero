@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Generador de Cartas</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body onload="generateCard()">
- <div class="card heart">
-  <span class="top-left">
-    <span class="suit">♥</span>
-  </span>
-
-  <span class="card-value">K</span>
-
-  <span class="bottom-right">
-    <span class="suit">♥</span>
-  </span>
-</div>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generador de Cartas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="generateCard()">
+  <div class="card" id="card">
+    <span class="top-left" id="top-suit"></span>
+    <span class="card-value" id="card-value"></span>
+    <span class="bottom-right" id="bottom-suit"></span>
+  </div>
 
   <script src="app.js"></script>
-  </body>
+</body>
 </html>
+
 
